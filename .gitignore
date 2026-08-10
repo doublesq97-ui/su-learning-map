@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
+node_modules/
+
+# Private or redistributable source material must never enter this repository.
+*.pdf
+private/
+private-corpus/
+corpus/
+sources/private/
+
+# Generated project outputs belong in the user's project, not this Skill repo.
+outputs/
+dist/
+build/

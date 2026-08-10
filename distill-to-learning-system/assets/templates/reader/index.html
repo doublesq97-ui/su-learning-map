@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light"><title>{{PAGE_TITLE}}</title>
+  <link rel="stylesheet" href="base.css"><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="tokens.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">{{BRAND}}</a>
+    <div class="header-progress"><span id="progressText">0 / {{CONCEPT_COUNT}}</span><span class="progress-track"><span class="progress-fill" id="progressBar"></span></span><span id="progressPercent">0%</span></div>
+    <a class="style-switch" href="#learningPath">查看学习路径</a>
+  </header>
+  <main id="top">
+    <section class="hero page-section">
+      <div class="hero-inner">
+        <p class="edition">{{EDITION}}</p>
+        <h1>{{HERO_TITLE}}<br><em>{{HERO_EMPHASIS}}</em></h1>
+        <p class="hero-lede">{{HERO_LEDE}}</p>
+        <div class="hero-actions"><a class="primary-cta" id="heroPrimary" href="#course">开始学习</a><a class="secondary-cta" href="#learningPath">先看学习主线</a></div>
+        <div class="hero-feedback"><b>完成信号</b><span>写下自己的答案，并把概念标记为“已掌握”。卡住时可从目录搜索或切换主线。</span></div>
+      </div>
+    </section>
+    <section class="path-preview" id="learningPath">
+      <div class="hero-inner">
+        <div class="path-head"><span>你会学到什么</span><h2>把概念连接成可以使用的能力</h2></div>
+        <div class="outcome-list" id="outcomeList"></div>
+      </div>
+    </section>
+    <section class="course" id="course">
+      <div class="course-shell">
+        <aside class="directory" id="directory" aria-label="学习目录">
+          <div class="directory-head"><div><span>Study Index</span><b>学习目录</b></div><button class="directory-close" id="closeDirectory" aria-label="关闭目录">×</button></div>
+          <label class="search-wrap">⌕ <input id="searchInput" type="search" placeholder="搜索概念或来源"></label>
+          <nav class="chapter-menu" id="chapterMenu"></nav><div class="concept-list" id="conceptList"></div>
+        </aside>
+        <article class="reader" id="reader">
+          <div class="reader-top"><button class="mobile-directory-btn" id="openDirectory">目录 · {{CONCEPT_COUNT}} 个概念</button><span id="lessonIndex">1 / {{CONCEPT_COUNT}}</span></div>
+          <div class="lesson" id="lesson"></div>
+          <nav class="reader-controls" aria-label="概念翻页"><button id="prevBtn">← 上一个</button><button class="complete-btn" id="completeBtn">标记为已掌握</button><button id="nextBtn">下一个 →</button></nav>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div class="directory-scrim" id="directoryScrim"></div>
+  <footer class="site-footer">{{SOURCE_NOTE}}</footer>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>

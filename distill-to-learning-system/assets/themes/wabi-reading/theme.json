@@ -1,0 +1,30 @@
+{
+  "name": "wabi-reading",
+  "version": 1,
+  "intent": "Quiet, reflective, low-distraction reading for long-form ideas.",
+  "use_for": ["philosophy", "personal growth", "books", "person perspectives", "reflective study"],
+  "avoid_for": ["real-time dashboards", "dense operations", "high-energy marketing", "children's learning"],
+  "tokens": {
+    "bg": "#EFEAE0",
+    "surface": "#F7F3EA",
+    "ink": "#3A352F",
+    "muted": "#766E64",
+    "line": "#CFC5B6",
+    "accent": "#8D7C64",
+    "accent-ink": "#FFFDF8",
+    "display": "Georgia, 'Songti SC', 'STSong', serif",
+    "reading": "Georgia, 'Songti SC', 'STSong', serif",
+    "body": "-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "label": "'SFMono-Regular', Menlo, monospace",
+    "display-weight": "400",
+    "em-style": "italic",
+    "shadow": "0 20px 60px rgba(74,62,48,.12)"
+  },
+  "layout": {
+    "cover_primary_actions": 1,
+    "paths_screen": 2,
+    "desktop_reader": "directory-plus-reader",
+    "mobile_reader": "single-column-with-bottom-controls",
+    "max_content_width": "1180px"
+  }
+}
