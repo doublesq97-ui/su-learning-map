@@ -1,0 +1,6 @@
+interface:
+  display_name: "学习地图"
+  short_description: "把资料变成可查证、可调用、可部署的个人学习系统"
+  default_prompt: "Use $su-learning-map to turn these sources into an evidence-backed Skill and a mobile-friendly learning map."
+policy:
+  allow_implicit_invocation: false

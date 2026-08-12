@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light"><title>李笑来学习地图 · 侘寂米色</title>
+  <link rel="stylesheet" href="li-xiaolai-reader-base.css"><link rel="stylesheet" href="li-xiaolai-reader-wabi.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">PATH TO FREEDOM / A</a>
+    <div class="header-progress"><span id="progressText">0 / 52</span><span class="progress-track"><span class="progress-fill" id="progressBar"></span></span><span id="progressPercent">0%</span></div>
+    <a class="style-switch" href="#learningPath">查看学习路径</a>
+  </header>
+  <main id="top">
+    <section class="hero page-section">
+      <div class="hero-inner">
+        <p class="edition">个人学习阅读器 · 52 个概念 · 原文页码</p>
+        <h1>把 52 个概念，<br><em>学成你的判断力。</em></h1>
+        <p class="hero-lede">每次 10 分钟：理解一个核心判断，读一段 PDF 原文，再写下一个与你有关的答案。</p>
+        <div class="hero-actions"><a class="primary-cta" id="heroPrimary" href="#course">开始学习 · 定义世界</a><a class="secondary-cta" href="#learningPath">先看五条主线</a></div>
+        <div class="hero-feedback"><b>完成信号</b><span>写下自己的答案，并把这个概念标记为“已掌握”。卡住时可从目录搜索或切换主线。</span></div>
+      </div>
+    </section>
+    <section class="path-preview" id="learningPath">
+      <div class="hero-inner">
+        <div class="path-head"><span>你会学到什么</span><h2>五条主线，把概念连接成能力</h2></div>
+        <div class="outcome-list">
+          <div class="outcome"><b>01 · 定义</b><span>把模糊问题变成可判断的问题。</span></div>
+          <div class="outcome"><b>02 · 注意力</b><span>把最稀缺的资源留给真正重要的事。</span></div>
+          <div class="outcome"><b>03 · 复利</b><span>让时间、能力与资本站在你这边。</span></div>
+          <div class="outcome"><b>04 · 商业模式</b><span>从出售时间走向沉淀资产。</span></div>
+          <div class="outcome"><b>05 · 产出</b><span>把想明白变成作品与行动。</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="course" id="course">
+      <div class="course-shell">
+        <aside class="directory" id="directory" aria-label="学习目录">
+          <div class="directory-head"><div><span>Study Index</span><b>学习目录</b></div><button class="directory-close" id="closeDirectory" aria-label="关闭目录">×</button></div>
+          <label class="search-wrap">⌕ <input id="searchInput" type="search" placeholder="搜索概念或原文"></label>
+          <nav class="chapter-menu" id="chapterMenu"></nav><div class="concept-list" id="conceptList"></div>
+        </aside>
+        <article class="reader" id="reader">
+          <div class="reader-top"><button class="mobile-directory-btn" id="openDirectory">目录 · 52 个概念</button><span id="lessonIndex">1 / 52</span></div>
+          <div class="lesson" id="lesson"></div>
+          <nav class="reader-controls" aria-label="概念翻页"><button id="prevBtn">← 上一个</button><button class="complete-btn" id="completeBtn">标记为已掌握</button><button id="nextBtn">下一个 →</button></nav>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div class="directory-scrim" id="directoryScrim"></div>
+  <footer class="site-footer">资料来源：《通往财富自由之路》PDF · 原文节选仅用于个人学习定位</footer>
+  <script src="li-xiaolai-learning-data-v4.js"></script><script src="li-xiaolai-learning-reader.js"></script>
+</body>
+</html>

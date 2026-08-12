@@ -1,0 +1,180 @@
+{
+  "title": "把资料，变成可复利的学习系统",
+  "eyebrow": "SU-LEARNING-MAP · HOW IT WORKS",
+  "subtitle": "能复习 · 能查证 · 能调用 · 能积累 · 能产品化",
+  "footer": "PDF / 资料 → Markdown → RAG → Skill / Learning Map → Cloudflare Pages",
+  "command": "$su-learning-map",
+  "watermark": "Su X @Sukiea1008 / doublesq",
+  "stages": [
+    {
+      "id": "source",
+      "label": "知识原料",
+      "nodes": [
+        {
+          "id": "book",
+          "label": "书籍",
+          "subtitle": "",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "course",
+          "label": "课程",
+          "subtitle": "",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "person",
+          "label": "人物语料",
+          "subtitle": "",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "topic",
+          "label": "专业主题",
+          "subtitle": "",
+          "eyebrow": "",
+          "emphasis": false
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "label": "证据层",
+      "nodes": [
+        {
+          "id": "markdown",
+          "label": "Markdown",
+          "subtitle": "页码锚点 · 私有保存",
+          "eyebrow": "",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "retrieval",
+      "label": "检索层",
+      "nodes": [
+        {
+          "id": "rag",
+          "label": "RAG 检索",
+          "subtitle": "先找证据，再回答",
+          "eyebrow": "",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "outputs",
+      "label": "双重产物",
+      "nodes": [
+        {
+          "id": "skill",
+          "label": "对应 Skill",
+          "subtitle": "遇事可调用",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "map",
+          "label": "学习地图",
+          "subtitle": "随时可复习",
+          "eyebrow": "",
+          "emphasis": false
+        }
+      ]
+    },
+    {
+      "id": "asset",
+      "label": "长期沉淀",
+      "nodes": [
+        {
+          "id": "knowledge",
+          "label": "知识资产",
+          "subtitle": "个人拥有 · 持续积累",
+          "eyebrow": "",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "label": "持续使用",
+      "nodes": [
+        {
+          "id": "call",
+          "label": "日常调用",
+          "subtitle": "词环 / Agent",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "pages",
+          "label": "网页交付",
+          "subtitle": "Cloudflare Pages",
+          "eyebrow": "",
+          "emphasis": false
+        },
+        {
+          "id": "product",
+          "label": "分享 / 产品化",
+          "subtitle": "内容与服务",
+          "eyebrow": "",
+          "emphasis": false
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "book",
+      "to": "markdown"
+    },
+    {
+      "from": "course",
+      "to": "markdown"
+    },
+    {
+      "from": "person",
+      "to": "markdown"
+    },
+    {
+      "from": "topic",
+      "to": "markdown"
+    },
+    {
+      "from": "markdown",
+      "to": "rag"
+    },
+    {
+      "from": "rag",
+      "to": "skill"
+    },
+    {
+      "from": "rag",
+      "to": "map"
+    },
+    {
+      "from": "skill",
+      "to": "knowledge"
+    },
+    {
+      "from": "map",
+      "to": "knowledge"
+    },
+    {
+      "from": "knowledge",
+      "to": "call"
+    },
+    {
+      "from": "knowledge",
+      "to": "pages"
+    },
+    {
+      "from": "knowledge",
+      "to": "product"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+:root{
+  --bg:#EFEAE0;
+  --surface:#F7F3EA;
+  --ink:#3A352F;
+  --muted:#766E64;
+  --line:#CFC5B6;
+  --accent:#8D7C64;
+  --accent-ink:#FFFDF8;
+  --display:Georgia, 'Songti SC', 'STSong', serif;
+  --reading:Georgia, 'Songti SC', 'STSong', serif;
+  --body:-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --label:'SFMono-Regular', Menlo, monospace;
+  --display-weight:400;
+  --em-style:italic;
+  --shadow:0 20px 60px rgba(74,62,48,.12);
+  --path-count:6;
+}

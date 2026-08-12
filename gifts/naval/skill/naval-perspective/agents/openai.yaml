@@ -1,0 +1,8 @@
+interface:
+  display_name: "纳瓦尔框架顾问"
+  short_description: "用特定知识、杠杆、所有权与长期复利分析真实选择"
+  default_prompt: "Use $naval-perspective to judge whether Naval's framework applies, then give conditions, limits, and one actionable next step."
+
+policy:
+  allow_implicit_invocation: true
+

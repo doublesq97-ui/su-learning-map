@@ -1,0 +1,14 @@
+{
+  "project": "elon-musk-complete",
+  "theme": "wabi-reading",
+  "concepts": 42,
+  "chapters": 6,
+  "files": [
+    "index.html",
+    "base.css",
+    "theme.css",
+    "tokens.css",
+    "app.js",
+    "data.js"
+  ]
+}

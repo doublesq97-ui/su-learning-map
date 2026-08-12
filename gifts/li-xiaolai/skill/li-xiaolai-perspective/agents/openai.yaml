@@ -1,0 +1,5 @@
+interface:
+  display_name: "李笑来思维操作系统"
+  short_description: "用李笑来公开材料分析财富、成长、商业模式、决策与写作问题"
+  default_prompt: "请用李笑来的框架帮我重新定义这个问题，并给出判断、边界和下一步行动。"
+

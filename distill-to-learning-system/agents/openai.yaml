@@ -1,6 +1,0 @@
-interface:
-  display_name: "资料蒸馏学习系统"
-  short_description: "把书籍或人物语料转化为可调用 Skill 与学习地图"
-  default_prompt: "Use $distill-to-learning-system to turn these sources into an evidence-backed Skill and mobile-friendly learning map."
-policy:
-  allow_implicit_invocation: false

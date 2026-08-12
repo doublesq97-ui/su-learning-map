@@ -1,0 +1,7 @@
+interface:
+  display_name: "马斯克思维操作系统"
+  short_description: "用第一性原理、算法与制造框架分析真实问题"
+  default_prompt: "Use $elon-musk-perspective to重新定义当前问题，找出硬约束、瓶颈、验证动作和不可外推边界。"
+
+policy:
+  allow_implicit_invocation: true

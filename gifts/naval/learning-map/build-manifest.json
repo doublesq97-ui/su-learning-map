@@ -1,0 +1,14 @@
+{
+  "project": "naval-almanack-complete",
+  "theme": "wabi-reading",
+  "concepts": 40,
+  "chapters": 6,
+  "files": [
+    "index.html",
+    "base.css",
+    "theme.css",
+    "tokens.css",
+    "app.js",
+    "data.js"
+  ]
+}
