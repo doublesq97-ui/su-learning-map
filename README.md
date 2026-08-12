@@ -23,7 +23,7 @@
 
 ```text
 请帮我安装这个 GitHub 仓库里的 `su-learning-map` Skill：
-https://github.com/doublesq97-ui/su-learning-map
+https://github.com/doublesq97-ui/su-learning-map/tree/main/su-learning-map
 
 安装完成后，请告诉我：
 1. 安装到了哪里；
